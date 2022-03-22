@@ -1,0 +1,109 @@
+.a {
+  color: rgba(#050505, 0);
+}
+
+.header {
+  height: 120px;
+  background-color: rgb(213, 215, 212);
+}
+
+.personalContainer {
+  text-align: left;
+  width: auto;
+  border-width: 10px;
+  height: 1200px;
+  margin: 0 auto;
+}
+
+.personalContainer form {
+  border-color: inherit;
+  font-family: serif;
+  align-items: left;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.usernameDiv form input:last-child {
+  background-color: rgb(117, 217, 237);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  border-width: 1px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 5px;
+  width: 50;
+}
+.logo img {
+  position: center;
+  width: 60%;
+  background-color: inherit;
+}
+.navigator{
+  margin-top: 15px;
+  margin-left: inherit;
+
+}
+.navigator ul{
+    text-align: center;
+}
+.navigator ul li {
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: serif;
+  padding: 0px 12px;
+}
+.login {
+  align-items: center;
+  margin-top: 50px;
+}
+.login h1 {
+  text-align: center;
+  font-size: 35px;
+  font-size-adjust: auto;
+  font-family: serif;
+  margin-bottom: 10px;
+  color: #219da6;
+
+}
+.login form {
+  text-align: center;
+}
+.login form input {
+  width: 300px;
+  height: 35px;
+  margin-bottom: 10px;
+  font-family: serif;
+  text-indent: 5px;
+  padding: 2.5px;
+}
+.login form input:last-child{
+  background-color: rgb(124, 187, 204);
+  border-style: none;
+  width: 310px;
+  color: rgb(247, 244, 242);
+  font-size: 20px;
+  cursor: pointer;
+}
+.login form input:last-child:hover{
+  background-color: rgba(240, 37, 31, 0.59);
+  transition: 0.5s;
+}
+.login form h2 {
+  text-align: center;
+  font-size: 25px;
+  font-size-adjust: auto;
+  font-family: serif;
+  margin-bottom: 10px;
+  color: #a6212e;
+
+}
